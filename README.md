@@ -1,58 +1,69 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F16363,100:63F18F&height=200&section=header&text=Abarrotes%20Don%20Chuy&fontSize=60&fontColor=ffff&fontAlignY=38&desc=XploitSeeker3000%20%20%E2%80%94%20JAPL%20%20%20&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
+<div align="center">
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Plus+Jakarta+Sans&weight=700&size=34&pause=1000&color=F1E363&center=true&vCenter=true&width=500&lines=Bramana;Gestión+Financiera+Inteligente" alt="Typing SVG" />
+  </a>
 </p>
 
-## About Laravel
+Una aplicación web progresiva (PWA) de finanzas personales construida con Vanilla JavaScript. Diseñada para ser rápida, segura y estéticamente atractiva, sin depender de frameworks pesados.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Plus+Jakarta+Sans&weight=700&size=32&pause=1000&color=63F18F&center=true&vCenter=true&width=500&lines=Controla+tus+Gastos;Alcanza+tus+Metas;" alt="Typing SVG" />
+  </a>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
+[![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
-## Learning Laravel
+[Explorar Demo](#) · [Reportar Bug](#) · [Solicitar Feature](#)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+</div>
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+## Características Principales
 
-## Agentic Development
+- **Dashboard Analítico Custom:** Gráficas de pastel y diagramas de árbol renderizados completamente en SVG puro, sin usar librerías externas.
+- **Doble Capa de Seguridad:** 
+  - Autenticación segura mediante **Firebase** (Google y Correo/Contraseña).
+  - Bloqueo por **PIN local** de 4 dígitos con teclado virtual animado.
+- **Michi Interactivo:** Un avatar SVG animado que reacciona cubriéndose los ojos cuando el usuario ingresa su contraseña.
+- **Personalización Profunda:** 5 temas de color (Oscuro, Claro, Azul, Verde, Grisazul) generados con variables CSS nativas, y personalización de avatares.
+- **Módulos Financieros Completos:** Gestión de Gastos por categorías, Wishlist con barras de progreso, Planeador de Ahorro con cálculos de viabilidad, y gestión de Fondos (Débito, Crédito, Efectivo).
+- **PWA Ready:** Diseño totalmente responsivo (Mobile-First) e instalable como aplicación nativa.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+## Vistazo Rápido
 
-```bash
-composer require laravel/boost --dev
+> **Nota:** Reemplaza los enlaces `ruta-a-tu-imagen.gif` con capturas reales o GIFs de tu proyecto.
 
-php artisan boost:install
-```
+<div align="center">
+  <img src="ruta-a-tu-gif-del-michi.gif" alt="Michi Animado Login" width="400"/>
+  <p><i>Animación interactiva en el inicio de sesión.</i></p>
+</div>
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+<div align="center">
+  <img src="ruta-a-tu-screenshot-dashboard.png" alt="Dashboard Principal" width="800"/>
+  <p><i>Dashboard general con gráficas SVG dinámicas y análisis de presupuesto automático.</i></p>
+</div>
 
-## Contributing
+##  Arquitectura y Tecnologías
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Este proyecto demuestra que se pueden construir aplicaciones complejas, dinámicas y hermosas utilizando los estándares de la web moderna:
 
-## Code of Conduct
+-   **Frontend:** Vanilla JavaScript (ES6+), HTML5 Semántico.
+-   **Estilos:** CSS3 puro con fuerte enfoque en `CSS Variables` para tematización instantánea y modo oscuro nativo. Flexbox y CSS Grid para layouts complejos.
+-   **Gráficos:** Generación procedimental de elementos `<svg>`, `<path>` y `<circle>` utilizando matemáticas trigonométricas directamente en JavaScript.
+-   **Backend & Auth:** Firebase Authentication (Google Auth Provider, Email/Password).
+-   **Almacenamiento (Fase 1):** `localStorage` con estructura JSON para persistencia de datos offline.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Instalación y Uso Local
 
-## Security Vulnerabilities
+Al no requerir compiladores complejos como Webpack o Vite (fase inicial), levantar el proyecto es sumamente sencillo.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. Clona el repositorio:
+   ```bash
+   git clone [https://github.com/alexgs1507/Tienda_Don_Chuy.git](https://github.com/alexgs1507/Tienda_Don_Chuy.git)
