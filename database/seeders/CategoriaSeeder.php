@@ -33,7 +33,13 @@ class CategoriaSeeder extends Seeder
                 'nombre' => 'Limpieza',
                 'descripcion' => 'Productos para la limpieza del hogar.',
             ],
+
+            [
+                'nombre' => 'Alcohol',
+                'descripcion' => 'Bebidas alcohólicas como cerveza, vino y licores.',
+            ]
         ];
+
 
         foreach ($categorias as $categoria) {
             Categoria::query()->updateOrCreate(
