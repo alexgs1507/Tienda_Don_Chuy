@@ -27,3 +27,4 @@ Sistema de gestión y control financiero para la tienda de abarrotes, desarrolla
 ---
 
 ## Características Principales
+
