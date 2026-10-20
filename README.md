@@ -155,4 +155,4 @@ Casos de prueba validados:
 `401 Unauthorized`: Verificación de bloqueo a rutas protegidas sin sesión.
 `403 Forbidden`: Restricción de permisos para usuarios con rol de empleado al intentar crear recursos.
 `422 Unprocessable Content`: Rechazo inmediato al enviar atributos prohibidos (`id`, `created_at`) en el payload.
-`201 Created`: Creación exitosa de un producto por un usuario administrador.
+
