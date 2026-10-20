@@ -14,13 +14,6 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->statefulApi();
-        //Eximir las rutas de login y de la API de la protección CSRF
-        /*$middleware->validateCsrfTokens(except: [
-            'login',
-            'logout',
-            'api/*',
-        ]);
-        */
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         $exceptions->shouldRenderJsonWhen(
